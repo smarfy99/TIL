@@ -1,2 +1,2 @@
 # TIL
-Today I learned - 오늘은 또 뭘 배웠느냐
+Today I learned - 오늘은 무엇을 배웠느냐
