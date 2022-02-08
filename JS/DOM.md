@@ -3,9 +3,9 @@
 > 웹 페이지에 대한 인터페이스
 > 
 - 여러 프로그램들이 페이지의 콘텐츠 및 구조, 스타일을 읽고 조작할 수 있도록 API 제공
+<br/>
 
 ## 웹 페이지가 만들어지는 원리
-
 ---
 
 ![image](https://user-images.githubusercontent.com/82459123/152915043-dabb52e2-d768-45cc-8399-0b3a17be3991.png)
@@ -14,7 +14,7 @@
 ### **Critical Rendering Path**
 
 : 웹 브라우저가 원본 HTML 문서를 읽은 후, 스타일을 입히고 대화형 페이지로 만들어 viewport에 표시하는 과정  
-  
+<br/>
 
 과정1️⃣
 
@@ -31,15 +31,14 @@
 
 - DOM (Document Object Model) - HTML 요소들의 구조화된 표현
 - CSSOM (Cascading Style Sheets Object Model) - 요소들과 관련된 스타일 정보의 구조화된 표현  
-  
+<br/>
 
 과정2️⃣
 
 : 브라우저가 렌더링 수행  
-
+<br/>
 
 ## DOM은 어떻게 생성되고 보여질까?
-
 ---
 
 - DOM은 HTML 문서의 객체 기반 표현 방식
@@ -64,15 +63,15 @@
     - JS에 의해 DOM이 수정될 때
         
         →JS를 통해 HTML을 변경하지 않고 DOM에 새로운 노드 추가 가능  
-        
+<>br/
         
 2. **DOM은 브라우저에서 보이는 것이 아니다**
     - viewport에 보이는 것 : 렌더 트리(DOM + CSSOM)
     - 렌더 트리는 렌더링 되는 요소만 있기 때문에 시각적으로 보이지 않는 요소 제외
         
         ex) DOM 트리에는 존재하는 <p>How?</p>가 css에 display : none;일 때는 viewport에 보이지 x  
-        
-        
+<br/>
+
 3. **DOM은 개발도구에서 보이는 것이 아니다**
     - DOM은 HTML로부터 빌드되고, 요소에 적용되는 스타일은 포함x
     - 개발도구 요소 검사기는 DOM과 가장 가까운 근사치를 제공하지만 DOM에 없는 추가적인 정보를 제공
@@ -82,11 +81,10 @@
     `::before` `::after` 선택자를 사용한 CSSOM과 렌더 트리의 일부를 구성
     
     → not DOM  
-    
+<br/>
     
 
 ### DOM vs HTML 요약정리
-
 ---
 
 - 항상 유효한 HTML 형식
