@@ -8,7 +8,8 @@
 
 ---
 
-![Untitled](DOM%20582d11b43e874e33acc6477d8e082eb7/Untitled.png)
+![image](https://user-images.githubusercontent.com/82459123/152915043-dabb52e2-d768-45cc-8399-0b3a17be3991.png)
+
 
 ### **Critical Rendering Path**
 
@@ -42,7 +43,8 @@
 - 단순 텍스트로 구성된 HTML 문서의 내용과 구조가 객체 모델로 변환되어 다양한 프로그램에서 사용 가능
 - DOM의 개체구조는 ‘**노드 트리**’로 표현
 
-![Untitled](DOM%20582d11b43e874e33acc6477d8e082eb7/Untitled%201.png)
+![image](https://user-images.githubusercontent.com/82459123/152915137-1852af06-5a73-463a-a9d0-d29231b7970d.png)
+
 
 ### DOM이 아닌 것
 
