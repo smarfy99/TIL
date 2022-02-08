@@ -13,7 +13,8 @@
 
 ### **Critical Rendering Path**
 
-: 웹 브라우저가 원본 HTML 문서를 읽은 후, 스타일을 입히고 대화형 페이지로 만들어 viewport에 표시하는 과정
+: 웹 브라우저가 원본 HTML 문서를 읽은 후, 스타일을 입히고 대화형 페이지로 만들어 viewport에 표시하는 과정  
+  
 
 과정1️⃣
 
@@ -29,11 +30,13 @@
 </aside>
 
 - DOM (Document Object Model) - HTML 요소들의 구조화된 표현
-- CSSOM (Cascading Style Sheets Object Model) - 요소들과 관련된 스타일 정보의 구조화된 표현
+- CSSOM (Cascading Style Sheets Object Model) - 요소들과 관련된 스타일 정보의 구조화된 표현  
+  
 
 과정2️⃣
 
-: 브라우저가 렌더링 수행
+: 브라우저가 렌더링 수행  
+
 
 ## DOM은 어떻게 생성되고 보여질까?
 
@@ -60,13 +63,15 @@
         
     - JS에 의해 DOM이 수정될 때
         
-        →JS를 통해 HTML을 변경하지 않고 DOM에 새로운 노드 추가 가능
+        →JS를 통해 HTML을 변경하지 않고 DOM에 새로운 노드 추가 가능  
+        
         
 2. **DOM은 브라우저에서 보이는 것이 아니다**
     - viewport에 보이는 것 : 렌더 트리(DOM + CSSOM)
     - 렌더 트리는 렌더링 되는 요소만 있기 때문에 시각적으로 보이지 않는 요소 제외
         
-        ex) DOM 트리에는 존재하는 <p>How?</p>가 css에 display : none;일 때는 viewport에 보이지 x
+        ex) DOM 트리에는 존재하는 <p>How?</p>가 css에 display : none;일 때는 viewport에 보이지 x  
+        
         
 3. **DOM은 개발도구에서 보이는 것이 아니다**
     - DOM은 HTML로부터 빌드되고, 요소에 적용되는 스타일은 포함x
@@ -76,7 +81,8 @@
     
     `::before` `::after` 선택자를 사용한 CSSOM과 렌더 트리의 일부를 구성
     
-    → not DOM
+    → not DOM  
+    
     
 
 ### DOM vs HTML 요약정리
