@@ -363,8 +363,7 @@ arr = str.split(",");
 `배열.slice(-3,-1)`
 
 - 인덱스 뒤에서 3부터 맨뒤 전까지
-
-여기마 ㅓㄹ미ㅏㄹ먼이ㅏㄹ먼이ㅏㄹ
+![image](https://user-images.githubusercontent.com/82459123/154265319-0bad1184-40a5-444f-b140-608a2e3cb585.png)
 
 ### 주석
 
