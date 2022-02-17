@@ -274,7 +274,7 @@ ex) `“hello”.length` ⇒ 5
     - 마지막 문자 : `str[str.length-1]`
     
 
-**부분문자열 구하기**
+**부분문자열 구하기** => 배열은 slice()
 
 - `.substring(a,b)`
     
