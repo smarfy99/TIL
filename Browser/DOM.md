@@ -63,13 +63,13 @@
     - JS에 의해 DOM이 수정될 때
         
         →JS를 통해 HTML을 변경하지 않고 DOM에 새로운 노드 추가 가능  
-<>br/
+<
         
 2. **DOM은 브라우저에서 보이는 것이 아니다**
     - viewport에 보이는 것 : 렌더 트리(DOM + CSSOM)
     - 렌더 트리는 렌더링 되는 요소만 있기 때문에 시각적으로 보이지 않는 요소 제외
         
-        ex) DOM 트리에는 존재하는 <p>How?</p>가 css에 display : none;일 때는 viewport에 보이지 x  
+        ex) DOM 트리에는 존재하는 <p.>How?<./p>가 css에 display : none;일 때는 viewport에 보이지 x  
 <br/>
 
 3. **DOM은 개발도구에서 보이는 것이 아니다**
