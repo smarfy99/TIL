@@ -1,17 +1,17 @@
 # 구글링 tip
 
-<aside>
+~~~
 💡 1. 정확한 솔루션을 검색하기
     
 2. 찾은 솔루션을 이해하기
     
 3. 원하는대로 수정해서 적용
 
-</aside>
+~~~
 
 1. drag and drop html / javascript / sample
     
-    구현하고자 하는 대상        스택         원하는 것
+    구현하고자 하는 대상        스택       원하는 것
     
 2. Exact Match
     
